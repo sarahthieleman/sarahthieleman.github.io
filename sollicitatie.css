@@ -1,8 +1,8 @@
 body {
-    background-image: url("background.jpg");
+    background-image: url("#background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #333;
+    background-color: white;
     position: relative;
     cursor: default;
 
@@ -36,11 +36,16 @@ html, body {
 
 /* Add a black background color to the top navigation */
 .topnav {
+    color: grey;
+    margin-bottom: 15px;
+    margin-left: 10%;
     background: transparent;
     overflow: hidden;
     border-color:transparent;
     box-shadow:none;
     background-image: none;
+    text-decoration: none;
+
 
     -webkit-user-select: none; /* Safari 3.1+ */
     -moz-user-select: none; /* Firefox 2+ */
@@ -56,24 +61,34 @@ html, body {
 
 .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 100%;
+    font-family: "open sans";
+    letter-spacing: -0.5px;
+    margin-left : -0.5em;
+    margin-right : -0.5em;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: transparent;
+    color: grey;
+    
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: black;
+    background-color: transparent;
     opacity: 0.8;
-    color: white;
+    color: black;
+    position: relative;
+    text-underline-position: above;
+
+
+
 }
 
 
