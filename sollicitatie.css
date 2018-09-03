@@ -1,5 +1,6 @@
 body {
     background-image: url("background.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #333;
     overflow:hidden;
