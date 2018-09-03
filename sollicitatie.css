@@ -19,6 +19,7 @@ html, body {
 .col-xs-12 {
     background-image: url("blackbox-background.jpg");
     background-color: #333;
+    background-repeat: no-repeat;
     opacity: 0.5;
     height: 70vh;
     width: 80vw;
