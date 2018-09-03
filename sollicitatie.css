@@ -18,6 +18,7 @@ html, body, {
 
 /* Basically waar alles in staat*/
 .col-xs-12 {
+    background-image: url("blackbox-background.jpg");
     background-color: #333;
     opacity: 0.5;
     height: 70vh;
@@ -27,6 +28,11 @@ html, body, {
     border-radius: 50px;
     border-width: 5px;
     border-color: black;
+
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
 }
 
 /* Add a black background color to the top navigation */
@@ -36,6 +42,11 @@ html, body, {
     border-color:transparent;
     box-shadow:none;
     background-image: none;
+
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
 
 }
 
@@ -81,4 +92,8 @@ h1 {
     font-family: "Arvo";
     font-size: 500%;
     opacity: 0.2;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
 }
