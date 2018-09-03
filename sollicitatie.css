@@ -1,0 +1,78 @@
+body {
+    background-image: url("background.jpeg");
+    background-repeat: no-repeat;
+    background-color: #333;
+
+}
+
+    
+html, body, {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+
+/* Basically waar alles in staat*/
+.col-xs-12 {
+    background-color: #333;
+    opacity: 0.5;
+    height: 80vh;
+    width: 80vw;
+    margin-left: 10%;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background: transparent;
+    overflow: hidden;
+    border-color:transparent;
+    box-shadow:none;
+    background-image: none;
+
+}
+
+/* Style the links inside the navigation bar */
+
+
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: red;
+    color: white;
+}
+
+
+
+.topnav{
+  
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+  font-family: "open sans";
+}
+
+h1 {
+    text-align: right;
+    font-family: "Arvo";
+    font-size: 500%;
+    opacity: 0.2;
+}
