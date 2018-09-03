@@ -17,17 +17,17 @@ html, body {
 
 /* Basically waar alles in staat*/
 .col-xs-12 {
-    background-image: url("blackbox-background.jpg");
-    background-color: #333;
-    background-repeat: no-repeat;
-    opacity: 0.5;
+    background-image: url("#blackbox-background.jpg");
+    background-color: lightgrey;
+    background-repeat: no-repeat !important;
+    opacity: 0.2;
     height: 70vh;
     width: 80vw;
     margin-left: 10%;
     border-style: solid;
     border-radius: 50px;
     border-width: 5px;
-    border-color: black;
+    border-color: white;
 
     -webkit-user-select: none; /* Safari 3.1+ */
     -moz-user-select: none; /* Firefox 2+ */
@@ -67,24 +67,21 @@ html, body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 100%;
-    font-family: "open sans";
-    letter-spacing: -0.5px;
-    margin-left : -0.5em;
-    margin-right : -0.5em;
+    font-family: "nanum gothic";
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: transparent;
-    color: grey;
+    background-color: rgba(53, 112, 170, 0.644);
+    color: whitesmoke;
     
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: transparent;
-    opacity: 0.8;
-    color: black;
+    background-color:  rgb(53, 111, 170);
+    opacity: 1;
+    color: whitesmoke;
     position: relative;
     text-underline-position: above;
 
