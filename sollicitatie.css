@@ -3,9 +3,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
+    background min-height: 100%;
     position: relative;
     cursor: default;
-    vertical-align: bottom;
 }
 
 
@@ -157,5 +157,4 @@ h3 {
     background-color: rgba(43, 134, 91, 0.514);
     color: rgb(6, 73, 59);
     text-align: center;
-    border-color:purple;
 }
