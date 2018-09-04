@@ -3,7 +3,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
-    background min-height: 100%;
+    background min-height: 100vh;
     position: relative;
     cursor: default;
 }
