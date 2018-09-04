@@ -5,7 +5,7 @@ body {
     background-color: white;
     position: relative;
     cursor: default;
-
+    vertical-align: bottom;
 }
 
 
