@@ -20,6 +20,23 @@ html, body {
     margin: 0; max-height: 100%;
 }
 
+
+h1 {
+    margin-top: 10px;
+    letter-spacing: 0px;
+    text-align: right;
+    font-family: "Arvo";
+    color: white;
+    font-size: 500%;
+    opacity: 0.2;
+    -webkit-user-select: none; /* Safari 3.1+ */
+    -moz-user-select: none; /* Firefox 2+ */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+
+
+
 h2 {
     text-align: center;
     font-family: "patua one"
@@ -59,8 +76,8 @@ h3 {
     padding-top: 5%;
     height:70vh;
     margin-bottom: 5%;
-    background-color: rgba(38, 114, 38, 0.1); 
-    border: 15px solid rgba(38, 114, 38, 0.1); ;
+    /* background-color: rgba(38, 114, 38, 0.1); 
+    border: 15px solid rgba(38, 114, 38, 0.1); ; */
     border-radius:3em;
 
 
@@ -68,7 +85,7 @@ h3 {
 
 
 
-/* Add a black background color to the top navigation */
+/* Navigatie */
 .topnav {
     color: grey;
     margin-bottom: 15px;
@@ -88,10 +105,11 @@ h3 {
 
 }
 
+
+
+
+
 /* Style the links inside the navigation bar */
-
-
-
 
 .topnav a {
     float: left;
@@ -103,21 +121,20 @@ h3 {
     font-family: "nanum gothic";
 }
 
-/* Change the color of links on hover */
+/* Navigatie hover */
 .topnav a:hover {
     background-color: rgba(53, 112, 170, 0.644);
     color: whitesmoke;
     
 }
 
-/* Add a color to the active/current link */
+/* Navigatie active */
 .topnav a.active {
     background-color:  rgb(53, 111, 170);
     opacity: 1;
     color: whitesmoke;
     position: relative;
     text-underline-position: above;
-
 
 
 }
@@ -132,15 +149,13 @@ h3 {
   font-family: "open sans";
 }
 
-h1 {
-    margin-top: 10px;
-    letter-spacing: 0px;
-    text-align: right;
-    font-family: "Arvo";
-    font-size: 500%;
-    opacity: 0.2;
-    -webkit-user-select: none; /* Safari 3.1+ */
-    -moz-user-select: none; /* Firefox 2+ */
-    -ms-user-select: none; /* IE 10+ */
-    user-select: none; /* Standard syntax */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(43, 134, 91, 0.514);
+    color: rgb(6, 73, 59);
+    text-align: center;
+    border-color:purple;
 }
