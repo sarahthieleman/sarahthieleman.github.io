@@ -2,7 +2,6 @@ body {
     background-image: url("background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background min-height: 100vh;
     position: relative;
     cursor: default;
 }
@@ -32,7 +31,29 @@ h1 {
     -moz-user-select: none; /* Firefox 2+ */
     -ms-user-select: none; /* IE 10+ */
     user-select: none; /* Standard syntax */
-}
+
+    animation-duration: 2s;
+    animation-name: slidein; }
+
+
+
+
+    /* css animatie slide in */
+
+     @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%; 
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+
+
+
 
 
 
@@ -50,7 +71,7 @@ h3 {
 /* Basically waar alles in staat*/
 .col-xs-10 {
     white-space: pre-line;
-    overflow:hidden;
+    overflow: scroll;
     background-image: url("#blackbox-background.jpg");
     background-color: rgba(255, 255, 255, 0.7);
     background-repeat: no-repeat !important;
@@ -78,7 +99,6 @@ h3 {
     /* background-color: rgba(38, 114, 38, 0.1); 
     border: 15px solid rgba(38, 114, 38, 0.1); ; */
     border-radius:3em;
-
 
 }
 
@@ -146,14 +166,4 @@ h3 {
   border-color:transparent;
   box-shadow:none;
   font-family: "open sans";
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(43, 134, 91, 0.514);
-    color: rgb(6, 73, 59);
-    text-align: center;
 }
