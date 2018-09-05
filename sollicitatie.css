@@ -4,6 +4,7 @@ body {
     background-repeat: no-repeat;
     position: relative;
     cursor: default;
+    overflow-x: scroll;
 
 
   -webkit-background-size: cover;
