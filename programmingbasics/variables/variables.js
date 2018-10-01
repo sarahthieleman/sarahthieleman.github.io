@@ -25,8 +25,6 @@ console.log(removeNot);
 
 
 
-
-
 // Opdracht 3: Schrijf een programma dat "Ik woon in Naboo" met 1400 vergelijkt.
 
 
