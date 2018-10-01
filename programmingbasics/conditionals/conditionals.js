@@ -71,3 +71,4 @@ if (purchasedBook == true && job == 'teacher' && inTrain == true) {
 else {
 	console.log('i wish i could read my book :(');
 }
+
