@@ -1,0 +1,7 @@
+//Opdracht 2: Schrijf een programma dat het woord 'not' verwijdert.
+
+
+var proCool = "Programming is not so cool";
+var removeNot = proCool.replace(" not","");
+
+console.log(removeNot);
