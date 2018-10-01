@@ -15,4 +15,3 @@ while (x <= 30) {
 
 // Opdracht 2: Schrijf een berekening van een Fibonacci reeks met while loop.
 
-
