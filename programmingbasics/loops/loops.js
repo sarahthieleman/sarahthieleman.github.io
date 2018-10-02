@@ -15,3 +15,17 @@ while (x <= 30) {
 
 // Opdracht 2: Schrijf een berekening van een Fibonacci reeks met while loop.
 
+
+// variables
+var a = 0;
+var b = 1;
+
+// while loop
+
+while (a <= 60) 
+{
+    a = a + b
+    b = a - b
+    console.log (a)
+    
+}
