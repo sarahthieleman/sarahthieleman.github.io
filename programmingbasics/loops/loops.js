@@ -29,3 +29,5 @@ while (a <= 60)
     console.log (a)
     
 }
+
+// Opdracht 3 : Gegeven is een array[2, 4, 8, 9, 12, 13] gebruik een for-loop om al deze getallen bij elkaar op te tellen. (check info over array https://javascript.info/array). Volgende week gaan we nog uitgebreid in op array’s.
