@@ -56,6 +56,28 @@ countDown()
 
 /*
 Opdracht 3:
-Schrijf een functie expressie en declaratie waarmee je aantoont dat een expressie en een declaratie op een andere
-manier met hoisting omgaan.
+Schrijf een functie expressie en declaratie waarmee je aantoont dat een expressie en een declaratie op een andere manier met hoisting omgaan.
 */
+
+
+function ditIsEenFunctie()
+{
+var ditIsEenVar
+console.log(ditIsEenVar)
+ditIsEenVar = "Dit is een tekst!"
+}
+
+ditIsEenFunctie()
+
+// outcome is undefined, maar als ik de expression boven console.log zet moet hij het wel doen!
+
+function ditIsEenFunctie()
+{
+var ditIsEenVar
+ditIsEenVar = "Dit is een tekst!"
+console.log(ditIsEenVar)
+}
+
+ditIsEenFunctie()
+
+// jaaaa nu doet hij het wel :)
