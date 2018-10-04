@@ -28,5 +28,30 @@ Opdracht 2: Schrijf een functie countdown die van 10 - 1 aftelt.
 Geef aan de functie een jaartal parameter mee die als hij bij ‘0’ is zegt ‘Happy {jaartal}’.
 */
 
+//function name is countDown
+function countDown()
+{
+
+    // variables
+    var a = 10;
+    var b = 1;
+
+    //while loop
+    while (a <= 10 && a > 0)
+    {  
+    a = a - b
+
+    //print outcome of a
+    console.log (a)
+    }
+
+}
+
+// print function named countDown
+countDown()
+
+
+// hij telt wel af maar Happy {jaartal} lukte niet.
+
 
 
