@@ -81,3 +81,4 @@ console.log(ditIsEenVar)
 ditIsEenFunctie()
 
 // jaaaa nu doet hij het wel :)
+
