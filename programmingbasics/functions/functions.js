@@ -59,6 +59,7 @@ Opdracht 3:
 Schrijf een functie expressie en declaratie waarmee je aantoont dat een expressie en een declaratie op een andere manier met hoisting omgaan.
 */
 
+//ik zet hier de expressie (= "Dit is een tekst!" onder de console.log)
 
 function ditIsEenFunctie()
 {
